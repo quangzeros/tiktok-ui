@@ -12,9 +12,6 @@
     align-items: center;
     justify-content: center;
 
-    + .wrapper {
-        margin-left: 8px;
-    }
     &.disabled {
         pointer-events: none;
         opacity: 0.5;
@@ -25,6 +22,13 @@
 .title + .icon {
     margin-left: 8px;
 }
+
+.icon {
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+}
+
 //Button types
 .rounded {
     border-radius: 999px;
