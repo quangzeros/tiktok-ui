@@ -20,7 +20,14 @@
 }
 
 .menu-popper {
+    display: flex;
     padding-bottom: 8px;
+    flex-direction: column;
+}
+
+.menu-body {
+    overflow-y: auto;
+    max-height: 100%;
 }
 
 //Header.js
@@ -28,6 +35,7 @@
     position: relative;
     height: 50px;
     margin-top: -8px;
+    flex-shrink: 0;
 }
 .back-btn {
     width: 50px;
